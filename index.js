@@ -31,7 +31,7 @@ app.use('/api/portfolios', portfolioApi)
 app.use('/api', userLogin)
 
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
     console.log(`Successfully served on port: ${PORT}.`);
 })
